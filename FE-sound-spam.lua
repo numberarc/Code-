@@ -1,5 +1,6 @@
 -- Title: FE SOUND SPAM
 -- Only works when Respect Filtering Enabled is FALSE
+-- Developed by Dmjsj987aIt and Team Sersku
 
 local player = game.Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
@@ -35,4 +36,11 @@ fss.MouseButton1Click:Connect(function()
 end
 end)
 
--- Script developed by Dmjsj987aIt and Team Sersku
+
+local check = game:GetService("SoundService").RespectFilteringEnabled
+
+if check then
+    title.Text = "RFE is true [Client-side now]"
+else
+    title.Text = "RFE is false [Server-side now]"
+end

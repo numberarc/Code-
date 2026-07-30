@@ -44,3 +44,9 @@ if check then
 else
     title.Text = "RFE is false [Server-side now]"
 end
+
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Credits Note";
+    Text = "Script made by Dmjsj987aIt";
+    Duration = "10";
+})

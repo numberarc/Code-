@@ -19,7 +19,7 @@ frame.Draggable = true
 local title = Instance.new("TextButton")
 title.Size = UDim2.new(0, 170, 0, 20)
 title.Position = UDim2.new(0, 15, 0, 20)
-title.Text = "Script development by Dmjsj987aIt"
+title.Text = "RFE is nil"
 title.Parent = frame
 
 local fss = Instance.new("TextButton")

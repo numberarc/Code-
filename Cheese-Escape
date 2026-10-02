@@ -1,0 +1,3 @@
+-- Only works in https://www.roblox.com/games/5777099015/Cheese-Escape
+workspace.Mouse.UpperTorso:Destroy()
+for i = 1, 10 do game:GetService("ReplicatedStorage").AddCheese:FireServer()  end
